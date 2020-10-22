@@ -1,0 +1,49 @@
+{
+    "name": "thacac/framework-w-multi-skeleton",
+    "description": "Light & powerful PHP framework for multilingue sites with admin layout - BASIC SKELETON",
+    "keywords": ["framework", "mvc", "php"],
+    "version": "2.1.2",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Axel Wargnier",
+            "email": "axel@axessweb.fr",
+            "role": "Developer"
+        },
+        {
+            "name": "Matthieu Mota",
+            "email": "matthieumota@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Guillaume Sylvestre",
+            "email": "gsylvestre@gmail.com",
+            "role": "Initial Developer"
+        },
+        {
+            "name": "Cedric Caccomo",
+            "email": "cedric@thecacproject.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "ext-mbstring": "*",
+        "thacac/framework-w-multi": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "W\\": "W/",
+            "": "app/"
+        },
+        "files": ["W/globals.php"]
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/thacac/framework-w-multi-skeleton"
+        }
+    ]
+}
